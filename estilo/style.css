@@ -7,33 +7,42 @@
   padding: 0px;
 }
 html,body{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(165, 12, 12, 0.705);
     min-height: 100vh;
     font-family: 'Courier New', Courier, monospace;
+
     
 }
 header{
     background-color: black;
-    color: white;
-    text-align: center;
+    color: rgb(244, 243, 247);
+    text-align: right,center;
 }
 header>h1{
      padding-top: 50px;
     font-variant: small-caps;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:10vw;
+    color: rgb(238, 10, 135);
+    background-image: url(../imagens/ghoul.png);
+    background-size: cover;
+    background-position: left;
 }
 header>p{
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    
 }
-a{
-    color: palevioletred;
+header a,footer a {
+    color: rgb(231, 19, 143);
     text-decoration: none;
     font-weight: bolder;
+
 }
-a:hover{
-     text-decoration: underline;
+header a:hover,footer a:hover{
+    text-decoration: underline;
 }
+
+
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -46,21 +55,35 @@ section>p{
     padding-bottom: 2em;
 }
 section.normal{
-    background-color: rgba(66, 57, 57, 0.527);
+    background-color: rgba(66, 57, 57, 0);
     color: black;
 }
+
 section.imagem{
-    background-color: rgba(0, 0, 0, 0.349);
-    color: rgb(216, 79, 79);
+    background-color: black;
+    color: rgb(14, 201, 14);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.356);
+    background-attachment: fixed;
 }
 section.imagem>p{
     background-color: rgba(0, 0, 0, 0.514);
    display: inline-block;
    padding: 5px;
+  
 }
+section#img01{
+   background-image: url(../imagens/naruto.png);
+   background-position: right,center;
+   background-size: cover;
+}
+section#img02{
+   background-image:url(../imagens/goku.png)
+ 
+}
+
 footer{
     background-color: black;
-    color: white;
+    color: rgb(241, 238, 238);
     padding: 10px;
 
 }
