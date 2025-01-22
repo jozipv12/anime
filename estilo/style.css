@@ -7,7 +7,7 @@
   padding: 0px;
 }
 html,body{
-    background-color:#f29f0588;
+    background-color: burlywood;
     min-height: 100vh;
     font-family:  "Aref Ruqaa", serif;
     
@@ -16,7 +16,7 @@ html,body{
 }
 header{
     background-color: black;
-    color: rgb(244, 243, 247);
+    color: rgb(243, 242, 248);
     text-align: right,center;
 }
 header,h1{
@@ -30,6 +30,7 @@ header>p{
     padding-bottom:150px;
     background-image:url(../imagens/ghoul.png) ;
     background-size: cover;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
     
 }
@@ -62,7 +63,7 @@ section.normal{
 
 section.imagem{
     background-color: black;
-    color: rgb(240, 228, 202);
+    color: rgb(165, 207, 11);
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.356);
     background-attachment: fixed;
 }
@@ -78,7 +79,8 @@ section#img01{
    background-size: cover;
 }
 section#img02{
-   background-image:url(../imagens/goku.png)
+   background-image:url(../imagens/de.webp);
+   background-size:cover ;
  
 }
 section#img03{
