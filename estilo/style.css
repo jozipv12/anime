@@ -7,10 +7,11 @@
   padding: 0px;
 }
 html,body{
-    background-color: rgba(165, 12, 12, 0.705);
+    background-color:#f29f0588;
     min-height: 100vh;
-    font-family: 'Courier New', Courier, monospace;
-
+    font-family:  "Aref Ruqaa", serif;
+    
+    
     
 }
 header{
@@ -18,22 +19,22 @@ header{
     color: rgb(244, 243, 247);
     text-align: right,center;
 }
-header>h1{
-     padding-top: 50px;
-    font-variant: small-caps;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:10vw;
-    color: rgb(238, 10, 135);
-    background-image: url(../imagens/ghoul.png);
-    background-size: cover;
-    background-position: left;
+header,h1{
+    text-align: center;
+     padding-top: 10px;
+     font-size: 60px;
+     color: deeppink;
+    
 }
 header>p{
-    padding-bottom: 40px;
+    padding-bottom:150px;
+    background-image:url(../imagens/ghoul.png) ;
+    background-size: cover;
+    
     
 }
 header a,footer a {
-    color: rgb(231, 19, 143);
+    color: rgb(5, 224, 188);
     text-decoration: none;
     font-weight: bolder;
 
@@ -55,13 +56,13 @@ section>p{
     padding-bottom: 2em;
 }
 section.normal{
-    background-color: rgba(66, 57, 57, 0);
+    background-color: rgba(139, 138, 138, 0);
     color: black;
 }
 
 section.imagem{
     background-color: black;
-    color: rgb(14, 201, 14);
+    color: rgb(240, 228, 202);
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.356);
     background-attachment: fixed;
 }
@@ -79,6 +80,11 @@ section#img01{
 section#img02{
    background-image:url(../imagens/goku.png)
  
+}
+section#img03{
+   
+    background-position: right bottom;
+
 }
 
 footer{
